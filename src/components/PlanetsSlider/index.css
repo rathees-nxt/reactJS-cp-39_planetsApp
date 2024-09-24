@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding: 200px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .app-container {
+    padding-top: 300px;
+  }
+}

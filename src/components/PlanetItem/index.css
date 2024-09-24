@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.planet-container {
+  width: 90%;
+  height: 370px;
+  text-align: center;
+  font-family: roboto;
+  margin-left: 15px;
+}
+.heading {
+  font-size: 28px;
+  font-weight: 600;
+  color: #05acff;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+.planet-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f8fafc;
+}
+.para {
+  font-size: 18px;
+  color: #f1f5f9;
+}
+.image {
+  width: 200px;
+  height: 100px;
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .planet-container {
+    margin-left: 200px;
+  }
+  .image {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .planet-container {
+    margin-left: 40px;
+    height: 700px;
+  }
+  .image {
+    width: 400px;
+    height: 300px;
+  }
+}
